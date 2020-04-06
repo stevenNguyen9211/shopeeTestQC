@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="mecury-test"
+	parallel="false">
+	<parameter name="username" value="shopeetest" />
+	<parameter name="password" value="Shopee@2020" />
+	<test name="LoginSuite">
+		<classes>
+			<class name="com.mecury.tests.LoginMecury">
+				<methods>
+					<include name="TestLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

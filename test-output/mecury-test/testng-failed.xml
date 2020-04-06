@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [mecury-test]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="Shopee@2020"/>
+  <parameter name="username" value="shopeetest"/>
+  <test thread-count="1" name="LoginSuite(failed)">
+    <classes>
+      <class name="com.mecury.tests.LoginMecury">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="TestLogin" invocation-numbers="0"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.mecury.tests.LoginMecury -->
+    </classes>
+  </test> <!-- LoginSuite(failed) -->
+</suite> <!-- Failed suite [mecury-test] -->

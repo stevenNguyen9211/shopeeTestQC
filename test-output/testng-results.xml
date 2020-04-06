@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-06T18:17:47Z" name="mecury-test" finished-at="2020-04-06T18:18:00Z" duration-ms="12737">
+    <groups>
+    </groups>
+    <test started-at="2020-04-06T18:17:47Z" name="LoginSuite" finished-at="2020-04-06T18:18:00Z" duration-ms="12737">
+      <class name="com.mecury.tests.LoginMecury">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.mecury.tests.LoginMecury@618425b5]" started-at="2020-04-06T18:17:47Z" name="initBrowser" finished-at="2020-04-06T18:17:49Z" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="TestLogin(java.lang.String, java.lang.String)[pri:0, instance:com.mecury.tests.LoginMecury@618425b5]" started-at="2020-04-06T18:17:49Z" name="TestLogin" finished-at="2020-04-06T18:18:00Z" duration-ms="10469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shopeetest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shopee@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.mecury.tests.LoginMecury@618425b5]" started-at="2020-04-06T18:18:00Z" name="quitBrowser" finished-at="2020-04-06T18:18:00Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.mecury.tests.LoginMecury -->
+    </test> <!-- LoginSuite -->
+  </suite> <!-- mecury-test -->
+</testng-results>
