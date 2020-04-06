@@ -33,12 +33,14 @@ I/ Set up environment
 		 https://github.com/stevenNguyen9211/shopeeTestQC.git
      
 II/ How to run
+
 1/ Clone the repository
 
 ●	Create your workspace directory: example E:/Shopee/workspace
 ●	On command prompt, type the following command: cd E:/Shopee/workspace
 ●	For cloning, type Git clone command: git clone https://github.com/stevenNguyen9211/shopeeTestQC.git
 Or download zip from https://github.com/stevenNguyen9211/shopeeTestQC.git
+
 2/ Import in Eclipse workspace
 
 ●	In the Eclipse menu, choose File => Import
@@ -46,5 +48,7 @@ Or download zip from https://github.com/stevenNguyen9211/shopeeTestQC.git
 ●	Click on Next > button. The next screen Import projects appears
 ●	Click Browse... button to locate gobear_automation_test project
 ●	Click on Finish button to import
+
 3/ Execution
-- Right click the class TestLogin and Run as Java Application
+
+●	Right click the class TestLogin and Run as Java Application
