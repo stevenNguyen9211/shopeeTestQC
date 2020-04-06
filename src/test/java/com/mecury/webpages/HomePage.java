@@ -12,13 +12,13 @@ public class HomePage {
 	private WebDriver driver;
 	private static String HOMEPAGE_URL = "http://newtours.demoaut.com/";
 
-	@FindBy(how = How.XPATH, using = "//input[@name='userName']")
+	@FindBy(xpath = "//input[@name='userName']")
 	private WebElement inputUser;
 
-	@FindBy(how = How.XPATH, using = "//input[@name='password']")
+	@FindBy(xpath = "//input[@name='password']")
 	private WebElement inputPass;
 
-	@FindBy(how = How.XPATH, using = "//input[@name='login']")
+	@FindBy(xpath = "//input[@name='login']")
 	private WebElement btnSubmit;
 
 	// Constructor
