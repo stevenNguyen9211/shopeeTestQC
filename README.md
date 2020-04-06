@@ -1,8 +1,10 @@
 I/ Set up environment
+
 1/ Eclipse
 
  -Download and install Eclipse:
-		https://www.eclipse.org/downloads/packages/		 
+		https://www.eclipse.org/downloads/packages/
+		
 2/ JAVA
 
  -Download and install Java JDK:
@@ -10,6 +12,7 @@ I/ Set up environment
 
  -Set java home:
 		https://javatutorial.net/set-java-home-windows-10 
+		
 3/ Maven
 
  -Download Maven:
@@ -17,14 +20,17 @@ I/ Set up environment
   
  -Set Maven Home, Path:
 		https://www.tutorialspoint.com/maven/maven_environment_setup
+		
 4/ TestNG
 
  -Download and install testNG:
 		https://www.toolsqa.com/selenium-webdriver/install-testng/
+		
 5/ Git
 
  -Download and install Git:
 		https://git-scm.com/downloads
+		
 6/ GitHub
 
  -Register GitHub account.
