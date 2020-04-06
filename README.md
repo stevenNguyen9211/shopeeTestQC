@@ -57,4 +57,4 @@ Or download zip from https://github.com/stevenNguyen9211/shopeeTestQC.git
 
 3/ Execution
 
-●	Right click the class TestLogin and Run as Java Application
+●	Open the folder execution and run the suites suites.xml
