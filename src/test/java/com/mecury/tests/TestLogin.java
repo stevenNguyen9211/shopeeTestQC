@@ -17,7 +17,7 @@ public class TestLogin {
 		driver.manage().window().maximize();
 		driver.get("http://newtours.demoaut.com/");
 		login(driver, "shopeetest", "Shopee@2020");
-
+		driver.quit();
 	}
 
 	public static void login(WebDriver driver, String username, String password) {
@@ -27,7 +27,6 @@ public class TestLogin {
 		inputPass.sendKeys(password);
 		WebElement submitLogin = driver.findElement(By.xpath("//input[@name='login']"));
 		submitLogin.click();
-		driver.quit();
 	}
 
 }
